@@ -5,6 +5,8 @@ import datetime
 import matplotlib.pyplot as plt
 
 kraken_url = "https://api.kraken.com/0/"  #This is the base url of the API
+#The API has a public part, and a private part. Calls are limited, but shoudl not be an issue
+
 
 def get_ohlc(pair,interval,since):
     '''This fucntion fetches historical OHLC(open low high close - prices) data from
