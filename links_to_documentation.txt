@@ -1,0 +1,7 @@
+
+Requests - The HTTP requests module that lightning-bot uses to
+talk to the exchange API
+http://docs.python-requests.org/en/master/user/quickstart/
+
+The Kraken exchange API docs
+https://www.kraken.com/help/api
